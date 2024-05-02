@@ -1,0 +1,440 @@
+body {
+    background-color: burlywood;
+}
+
+.curriculum {
+    width: 70%;
+    height: 1200px;
+    background-color: azure;
+    margin-left: 15%;
+    border-radius: 12px;
+}
+
+header {
+    margin-left: 5%;
+    background-color: gold;
+    width: 90%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 38% 24% 38%;
+}
+
+.cuadroCafe {
+    margin-left: 34%;
+    width: 200px;
+    height: 170px;
+    background-color: rgb(105, 77, 54);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    font-size: 45px;
+    font-family:  impact, bolder;
+}
+
+.ocupacion {
+    margin-left: 38%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.textcuadroCafe1 {
+    color: gold;
+}
+
+.textcuadroCafe2 {
+    color: azure;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.space3 {
+    margin-top: 30px;
+    max-height: 180px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 155px;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.whiteIcon {
+    background-color: azure;
+    width: 50px;
+    padding: 5px 0 0 20px;
+    height: 35px;
+    border-radius: 0 15px 15px 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 45% 48%;
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 5%;
+    }
+    
+.bloq1 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+    
+.quiensoyTitulo {
+    display: inline;
+    display: grid 10% 90%;
+}
+    
+    #cuadroAmarillo1 {
+        background-color: gold;
+        width: 40px;
+        height: 23px;
+        position: absolute;
+        margin-top: 172px;
+        margin-left: 65px;
+    }
+
+    #cuadroAmarillo2 {
+        background-color: gold;
+        width: 40px;
+        height: 23px;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 65px;
+    }
+
+    #cuadroAmarillo3 {
+        background-color: gold;
+        width: 40px;
+        height: 23px;
+        position: absolute;
+        margin-top: 154px;
+        margin-left: 65px;
+    }
+
+    #cuadroAmarillo4 {
+        background-color: gold;
+        width: 40px;
+        height: 23px;
+        position: absolute;
+        margin-top: 153px;
+        margin-left: 65px;
+    }
+
+    #cuadroAmarillo5 {
+        background-color: gold;
+        width: 40px;
+        height: 23px;
+        position: absolute;
+        margin-top: 153px;
+        margin-left: 65px;
+    }
+
+    #cuadroAmarillo6 {
+        background-color: gold;
+        width: 40px;
+        height: 23px;
+        position: absolute;
+        margin-top: 153px;
+        margin-left: 65px;
+    }
+
+    .v1 {
+        height: 35px;
+        width: 150px;
+        margin-left: 10%;
+        transform: rotate(-90deg);
+        margin-top: 40%;
+        font-size: 22px;
+        font-family: sans-serif, bolder;
+        border: solid 2px red;
+    }
+    
+    .v3 {
+        height: 35px;
+        width: 150px;
+        margin-left: 10%;
+        transform: rotate(-90deg);
+        margin-top: 20%;
+        font-size: 22px;
+        font-family: sans-serif, bolder;
+    }
+
+    .v4 {
+        height: 35px;
+        width: 150px;
+        margin-left: 10%;
+        transform: rotate(-90deg);
+        margin-top: 20%;
+        font-size: 22px;
+        font-family: sans-serif, bolder;
+    }
+
+    .v5 {
+        height: 35px;
+        width: 150px;
+        margin-left: 10%;
+        transform: rotate(-90deg);
+        margin-top: 20%;
+        font-size: 22px;
+        font-family: sans-serif, bolder;
+    }
+
+    .v6 {
+        height: 35px;
+        width: 150px;
+        margin-left: 10%;
+        transform: rotate(-90deg);
+        margin-top: 20%;
+        font-size: 22px;
+        font-family: sans-serif, bolder;
+    }
+    
+    .iconsBloq1 {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+.imgBox1 {
+    width: 30px;
+    height: 30px;
+}
+
+    .backgroundIcon {
+        background-color: gold;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .containerQuienSoy {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerQuienSoy2 {
+
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .containerQuienSoy3 {
+        margin-top: 4.6%;
+        width: 100%;
+    }
+    
+    p.informacionQuienSoy {
+        font-size: 14px;
+        font-family: bolder sans-serif;
+ 
+    }
+
+    p.informacionQuienSoy2 {
+        font-size: 14px;
+        font-family: bolder sans-serif;
+
+    }
+    
+    .bajoBackgroundIcon {
+        font-size: 10px;
+    }
+
+
+.containerIcons1 {
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+
+.bloq2 {
+    margin-top: -5%;
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.containerBarra {
+    position: relative;
+    width: 250px;
+    margin-top: -5%;
+}
+
+.containerBarra .skill {
+    margin: 20px;
+    height: 30px;
+    margin-left: -1%;
+}
+
+.containerBarra .skill p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -8%;
+}
+
+.containerBarra .skill .progress {
+    position: relative;
+    height: 6px;
+    width: 100%;
+    background-color: gray;
+    overflow: hidden;
+    margin: 5px 0;
+    border-radius: 5px;
+    margin-top: -5%;
+}
+
+.containerBarra .skill .progress::before {
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background-color: gold;
+}
+
+.columnaDeEspacios1 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 5px gray;
+    border-radius: 4px;
+    top: 20px;
+}
+
+.columnaDeEspacios2 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 5px gray;
+    border-radius: 4px;
+    position: relative;
+    bottom: 34px;
+    left: 195.5px;
+}
+
+.columnaDeEspacios3 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 5px gray;
+    border-radius: 4px;
+
+    position: relative;
+    top: 30px;
+}
+
+.columnaDeEspacios4 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 5px gray;
+    border-radius: 4px;
+
+}
+
+.columnaDeEspacios5 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 5px gray;
+    border-radius: 4px;
+    position: relative;
+    bottom: 34px;
+    left: 210px;
+}
+
+.columnaDeEspacios6 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: solid 5px gray;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+}
+
+.infoEducacion {
+font-size: 12px;
+font-weight: bolder;
+}
+
+.bloq3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 200px;
+}
+
+.bloq4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    height: 200px;
+}
+
+.v2 {
+    height: 35px;
+    width: 150px;
+    margin-left: 10%;
+    transform: rotate(-90deg);
+    margin-top: 53%;
+    font-size: 22px;
+    font-family: sans-serif, bolder;
+}
+
+.bloq5 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.containerPremios {
+    font-size: 12px;
+}
+
+.bloq5 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.bloq6 {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.containerIconsIntereses {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+#imgIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.textIcon {
+    position: relative;
+    margin-top: -40%;
+    font-size: 16px;
+    font-family: bold, cursive;
+}
